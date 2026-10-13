@@ -1,0 +1,44 @@
+Local Repo Inspector
+Root: [SYNTHETIC_PROJECT_ROOT]
+Files: 7
+Directories scanned: 6
+Total bytes: 132725
+Oversized files: 1
+Policy: FAIL
+
+Extensions:
+  .bin: 1
+  .md: 2
+  .png: 1
+  .py: 2
+  .ts: 1
+
+Largest files:
+        123456  assets/archive.bin
+          8192  assets/hero.png
+           340  src/components/widget.ts
+           320  tests/test_smoke.py
+           192  src/app.py
+
+Directory hotspots by total bytes:
+        131648 bytes         2 files  assets
+           532 bytes         2 files  src
+           340 bytes         1 files  src/components
+           320 bytes         1 files  tests
+           225 bytes         2 files  docs
+
+Directory hotspots by file count:
+         2 files        131648 bytes  assets
+         2 files           532 bytes  src
+         2 files           225 bytes  docs
+         1 files           340 bytes  src/components
+         1 files           320 bytes  tests
+
+Safety:
+  skipped symlinks: 0
+  skipped excluded dirs: 2
+  skipped outside root: 0
+  scan errors: 0
+  file contents read: no
+  network used: no
+  files written: no
