@@ -1,0 +1,31 @@
+{
+  "data_uploaded": false,
+  "deliberate_oversize_policy_result": "FAIL",
+  "expected_included_bytes": 132725,
+  "expected_included_files": 7,
+  "external_action_authorized": false,
+  "phase": "4.22",
+  "product": "Local Repo Inspector",
+  "product_version": "v0.4.9-rc1",
+  "public_distribution_requires_new_owner_approval": true,
+  "real_repository_content_used": false,
+  "reports": {
+    "fixture_spec.json": {
+      "bytes": 540,
+      "sha256": "dba40b12fa5d9807006e80e5635e9e07ceb9e4639c9242e708970cc63dea26c6"
+    },
+    "report.json": {
+      "bytes": 2339,
+      "sha256": "206f61014434299233087de065bb1b2b693aecf4d0e24324ae7fc1ace3c9641f"
+    },
+    "report.txt": {
+      "bytes": 1073,
+      "sha256": "2f8015fde379d2b950d8ea156ee414f8d868ccc31a21b9a59e4f33485932def3"
+    }
+  },
+  "root_path_redacted": true,
+  "schema_version": "1.0",
+  "status": "LOCAL_ONLY_DEMO_VERIFIED",
+  "synthetic_only": true,
+  "temporary_fixture_persisted": false
+}
