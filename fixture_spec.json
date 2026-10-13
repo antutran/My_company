@@ -1,0 +1,20 @@
+{
+  "byte_generator": "REPEATED_BYTE_LEN_OF_RELATIVE_PATH_MOD_251",
+  "excluded_file_sizes": {
+    "build/generated.bin": 80000,
+    "node_modules/cache.bin": 70000
+  },
+  "fixture_kind": "SYNTHETIC_ONLY",
+  "included_file_sizes": {
+    "assets/archive.bin": 123456,
+    "assets/hero.png": 8192,
+    "docs/README.md": 130,
+    "docs/usage.md": 95,
+    "src/app.py": 192,
+    "src/components/widget.ts": 340,
+    "tests/test_smoke.py": 320
+  },
+  "max_file_bytes": 65536,
+  "real_repository_content_used": false,
+  "schema_version": "1.0"
+}
