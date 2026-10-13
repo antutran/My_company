@@ -1,0 +1,132 @@
+{
+  "directory_count": 6,
+  "directory_hotspots": {
+    "by_file_count": [
+      {
+        "bytes": 131648,
+        "file_count": 2,
+        "path": "assets"
+      },
+      {
+        "bytes": 532,
+        "file_count": 2,
+        "path": "src"
+      },
+      {
+        "bytes": 225,
+        "file_count": 2,
+        "path": "docs"
+      },
+      {
+        "bytes": 340,
+        "file_count": 1,
+        "path": "src/components"
+      },
+      {
+        "bytes": 320,
+        "file_count": 1,
+        "path": "tests"
+      }
+    ],
+    "by_total_bytes": [
+      {
+        "bytes": 131648,
+        "file_count": 2,
+        "path": "assets"
+      },
+      {
+        "bytes": 532,
+        "file_count": 2,
+        "path": "src"
+      },
+      {
+        "bytes": 340,
+        "file_count": 1,
+        "path": "src/components"
+      },
+      {
+        "bytes": 320,
+        "file_count": 1,
+        "path": "tests"
+      },
+      {
+        "bytes": 225,
+        "file_count": 2,
+        "path": "docs"
+      }
+    ],
+    "scope": "cumulative subtree metadata"
+  },
+  "exclusions": {
+    "directory_names": [
+      ".git",
+      ".hg",
+      ".idea",
+      ".mypy_cache",
+      ".pytest_cache",
+      ".ruff_cache",
+      ".svn",
+      ".venv",
+      ".vscode",
+      "__pycache__",
+      "build",
+      "dist",
+      "env",
+      "node_modules",
+      "venv"
+    ],
+    "patterns": []
+  },
+  "extension_counts": {
+    ".bin": 1,
+    ".md": 2,
+    ".png": 1,
+    ".py": 2,
+    ".ts": 1
+  },
+  "file_count": 7,
+  "largest_files": [
+    {
+      "bytes": 123456,
+      "path": "assets/archive.bin"
+    },
+    {
+      "bytes": 8192,
+      "path": "assets/hero.png"
+    },
+    {
+      "bytes": 340,
+      "path": "src/components/widget.ts"
+    },
+    {
+      "bytes": 320,
+      "path": "tests/test_smoke.py"
+    },
+    {
+      "bytes": 192,
+      "path": "src/app.py"
+    }
+  ],
+  "oversized_files": [
+    {
+      "bytes": 123456,
+      "path": "assets/archive.bin"
+    }
+  ],
+  "policy": {
+    "max_file_bytes": 65536,
+    "oversized_file_count": 1,
+    "pass": false
+  },
+  "root": "[SYNTHETIC_PROJECT_ROOT]",
+  "safety": {
+    "content_read": false,
+    "files_written": false,
+    "network_used": false,
+    "scan_errors": 0,
+    "skipped_excluded_dirs": 2,
+    "skipped_outside_root": 0,
+    "skipped_symlinks": 0
+  },
+  "total_bytes": 132725
+}
